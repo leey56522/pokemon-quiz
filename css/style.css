@@ -1,0 +1,77 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 75%);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+button {
+  color: white;
+  font-family: inherit;
+  border: none;
+  background-color: #ff7675;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d16060
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
