@@ -5,5 +5,8 @@
 The website tests the pokemon-related knowledge of user with 5 simple questions.
 At the end of the quiz, the user gets a score back.
 
+## Challenges I encountered
+- Figuring out the process to check if the selected answer matches the actual answer
+
 ## Things I learned
 Manipulating innerHTML of divs using object key and values
